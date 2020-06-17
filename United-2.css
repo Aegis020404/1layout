@@ -1,0 +1,32 @@
+header{
+    background-color: green;
+    margin:0 0 auto 0 ;
+    height:93px;
+    box-sizing: border-box;
+   
+}
+.logo{
+position: relative;
+left:263px;
+}
+header ul.menu li{
+       padding:5px;
+    display:inline-block;
+    margin-right:10px;
+ 
+    
+}
+header ul.menu{
+text-align: right;
+
+}
+
+
+
+
+main{
+
+}
+footer{
+
+}
