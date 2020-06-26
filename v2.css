@@ -395,7 +395,7 @@ float:left;
 .main_newsletter_input_namemail{
     width:220px;height:30px;
     text-align: center;
-    color:white;    
+    color:rgb(0, 0, 0);    
 }
 .main_newsletter_input_submit{
     text-align: center;
@@ -442,7 +442,7 @@ float:left;
     width:50px;
     height:48px;
     position:absolute;
-    top:100%;
+    top:105%;
     left:41%
 
 }
@@ -454,11 +454,14 @@ float:left;
 }
 .footer_menu{
     margin-top:300px;;
-text-align:center;
+    text-align:center;
+    margin-bottom:1px;
+
 }
 .footer_menu_li{
     margin:20px;
     display:inline-block;
+    margin-bottom:1px;
 }
 .footer_menu_li_a{
     text-decoration:none;   
@@ -466,15 +469,39 @@ text-align:center;
     font-weight:400;
 }
 .footer_menu_tel{
+text-align: center;
+margin-top:10px;
+}
+.footer_menu_tel_img{
+display:inline-block;
+margin-top:10px;
 
 }
-.footer_menu_tel
+.footer_menu_tel_h3{
+    margin-left:5px;
+    display: inline-block;
+    color:#394b50;
+    font-weight:400;
+    margin-top:1px;
+}
 
-
-
-
-
-
-
-
-
+.footer_menu_social_network{
+    text-align:center;
+}
+.footer_menu_social_network_icon{
+    margin-left:16px;
+    text-decoration:none;
+}
+.footer_copyright{
+    position:absolute;
+    bottom:0;
+    right:0;
+    left:0;
+    height:50px;
+    text-align: center;
+    background-color:#709dca;
+    color:#fff;
+    padding:12px;
+    line-height: 25px;
+    box-sizing:border-box
+}
